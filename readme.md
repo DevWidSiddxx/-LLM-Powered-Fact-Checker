@@ -35,6 +35,7 @@ Real life use cases:- To check whether any news is fake or real especially durin
    - 🧩 Simple keyword-based heuristics,
    it determines if the claim is ✅ True, ❌ False, or 🟡 Unverifiable.
 5. Shows verdict, matched evidence, and technical reasoning.
+6. streamlit run app.py
 
 ---
 
