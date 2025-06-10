@@ -1,10 +1,38 @@
-### ✅ `requirements.txt`
-```txt
-spacy==3.7.2
-pandas==2.2.2
-numpy==1.26.4
-sentence-transformers==2.6.1
-faiss-cpu==1.8.0
-transformers==4.41.1
-scikit-learn==1.5.0
-streamlit==1.35.0
+# AI Fact-Checking System Dependencies
+# Python 3.8+ required
+
+# Core ML Libraries
+torch>=2.0.0,<3.0.0                    # PyTorch for deep learning models
+transformers>=4.30.0,<5.0.0            # Hugging Face transformers library
+sentence-transformers==2.2.2           # Sentence embeddings
+faiss-cpu==1.7.4                       # Facebook AI Similarity Search (CPU version)
+# faiss-gpu==1.7.4                     # Uncomment for GPU support (CUDA required)
+
+# NLP Libraries
+spacy>=3.6.0,<4.0.0                    # Industrial-strength NLP
+# en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.6.0/en_core_web_sm-3.6.0-py3-none-any.whl
+
+# Data Processing
+pandas>=1.5.0,<3.0.0                   # Data manipulation and analysis
+numpy>=1.21.0,<2.0.0                   # Numerical computing
+scikit-learn>=1.3.0,<2.0.0             # Machine learning utilities
+
+# Web Framework
+streamlit>=1.28.0,<2.0.0               # Web UI framework
+streamlit-extras>=0.3.0                # Additional Streamlit components
+
+# Utilities
+python-dotenv>=1.0.0                   # Environment variable management
+tqdm>=4.65.0                           # Progress bars
+requests>=2.31.0                       # HTTP library
+urllib3>=1.26.0,<3.0.0                 # HTTP client
+
+
+# Math and Statistics
+scipy>=1.11.0                          # Scientific computing
+matplotlib>=3.7.0                      # Plotting library (for visualizations)
+seaborn>=0.12.0                        # Statistical data visualization
+
+# Caching
+joblib>=1.3.0                          # Lightweight pipelining
+
