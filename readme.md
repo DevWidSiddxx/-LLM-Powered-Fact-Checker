@@ -37,6 +37,7 @@ Real life use cases:- To check whether any news is fake or real especially durin
 5. Shows verdict, matched evidence, and technical reasoning.
 6. streamlit run app.py
 
+Demo link:- https://drive.google.com/drive/folders/15kZnntgK3d3NzUrfu4w8W6Kly-1bNyJ5?usp=sharing
 ---
 
 
