@@ -5,10 +5,10 @@ This project is a lightweight AI-powered fact-checking system that allows users 
 Real life use cases:- To check whether any news is fake or real especially during the pandemic,war situation to avoid mishaps this could be effectively used.
 
 ⚡ Powered by:
-- ✅ BART for zero-shot classification
-- ✅ MiniLM embeddings for semantic similarity
-- ✅ FAISS for fast vector search
-- ✅ Streamlit for user interface
+-  BART for zero-shot classification
+-  MiniLM embeddings for semantic similarity
+-  FAISS for fast vector search
+-  Streamlit for user interface
 
 ---
 
