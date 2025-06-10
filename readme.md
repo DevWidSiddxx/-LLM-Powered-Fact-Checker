@@ -38,41 +38,6 @@ Real life use cases:- To check whether any news is fake or real especially durin
 
 ---
 
-## 📦 Installation
-
-### 1. Clone this repo:
-```bash
-git clone
-
-
-###2.Create & activate virtual environment:
-#bash commands:-
-python -m venv venv
-# Windows:
-venv\Scripts\activate
-# macOS/Linux:
-source venv/bin/activate
-
-###3.Install dependencies:
-#bash commands:-
-pip install -r requirements.txt
-python -m spacy download en_core_web_sm
-
-
- Run the App
-streamlit run app.py
-
-
-Input Statement:
-The Prime Minister launched a crop insurance scheme in 2023.
-
-Output Statement:
-TRUE — Claim closely matches verified fact
-
-
- Support
-
-📧 Email: devwithsiddx@gmail.com
 
 
 
